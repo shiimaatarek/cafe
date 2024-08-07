@@ -1,0 +1,143 @@
+
+  body{
+    background-image: url("images/pattern.png");
+  }
+  .header{
+    position: fixed;
+    top: 0;
+    background-color: rgb(203,147,200);
+    left: 0;
+    right: 0;
+    padding: .2rem;
+  }
+  
+  .cake img{
+    max-height: 30px; 
+  vertical-align: middle;
+  size: 2px;;
+  }
+  .links {
+    display: inline;
+  }
+  
+  .links li {
+    display: inline;
+    margin-right: 1rem;
+
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+  }
+ 
+  .Content {
+    margin-top: 60px; 
+  }
+  
+  .leftside, .right-side {
+    box-sizing: border-box;
+    float: left;
+    padding: 1rem;
+  }
+  .Search{
+    float: right;
+  }
+  
+.leftimage img{
+    display: block;
+    margin: auto;
+    width: 220px;
+}
+.right-side img{
+    width: 500px;
+    height: 240px;
+}
+
+.form-content h1,.right-side h1,.form-content form label{
+    color: rgb(203,147,200);
+}
+.form-content form .name,.form-content form .password,.form-content form .city{
+margin-bottom: 10px;
+}
+.form-content form .name div,.form-content form .password div,.form-content form .city div{
+    display: inline-block;
+    background-color: white;
+    padding-left: 10px;
+    position: relative;
+    width: 80%;
+}
+.form-content form .name div::before,.form-content form .city div::before,.form-content form .password div::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background-color: #26c9a5;
+}
+.form-content form input[type=text],.form-content form input[type=password],.form-content form select{
+    display: inline-block;
+    border-color: transparent;
+    width: 100%;
+    outline-color: transparent;
+    padding: 3px 2px;
+}
+
+.form-content form .submit{
+  color: white;
+  font-weight: 600;
+  padding: 10px 60px;
+  border-radius: 60px;
+  display: block;
+   margin: auto;
+  background-color: #26c9a5;
+   border-color: transparent;
+  
+}
+.footer{
+  text-align: center;
+}
+.table-rightside{
+  float: both;
+  padding: 1rem;
+  box-sizing: border-box;
+
+}
+.table-rightside{
+  width: 60%;
+  padding: 10px 30px ;
+
+}
+
+.table-rightside{
+  padding-left: 0;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.table th, .table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.table td img{
+  width: 100px;
+  height: 80px;
+}
+.table-rightside{
+  padding: 7rem;
+
+}
+  
+  .table-rightside {
+    float: left;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  .table-rightside{
+    width: 70%;
+    padding: 7px 10px ;
+  }
